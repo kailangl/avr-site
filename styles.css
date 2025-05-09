@@ -1,4 +1,4 @@
-body,
+
 html {
     font: 1em sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -24,4 +24,266 @@ html {
 }
 .lgstyle{
     margin-right: 10px
+}
+.dsbox{
+    color: white;
+  
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #ec2b2b;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: #ec2b2b;
+}
+.agrbox{
+    color: white;
+  
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #00d084;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: #00d084;
+}
+.container_curso {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+
+}
+.admsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 2px #388AFD;
+}
+.dssec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+.agrsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+header {
+    background-image: linear-gradient(#02ac02, #008000);
+    width: 100%;
+    height: 120px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.brasão-da-escola {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    left: 50px;
+    top: 10px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-image: linear-gradient(#02ac02, #008000);
+    width: 100%;
+    height: 120px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.brasão-da-escola {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    left: 50px;
+    top: 10px;
+}
+
+.nome {
+    position: absolute;
+    left: 160px;
+    top: 30px;
+}
+
+.cidade {
+    position: absolute;
+    left: 160px;
+    top: 75px;
+    font-weight: 800;
+    color: #000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #ca0000;
+    color: #ffffff;
+    font-weight: 800;
+    height: 40px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+ul li {
+    padding: 30px 100px;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.conteudo {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.conteudo img {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 500px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.conteudo h2 {
+    position: absolute;
+    font-size: 50px;
+    top: 190px;
+    left: 600px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.conteudo p {
+    position: absolute;
+    font-size: 20px;
+    top: 250px;
+    left: 600px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+main hr {
+    position: absolute;
+    top: 700px;
+    size: 2px;
+    background-color: #000;
+}
+
+.outros {
+    display: flex;
+}
+
+.outros h2 {
+    position: absolute;
+    font-size: 40px;
+    top: 720px;
+    left: 80px;
+}
+
+.outros p {
+    position: absolute;
+    font-size: 20px;
+    top: 780px;
+    left: 80px;
+}
+
+footer {
+    display: flex;
+    height: 20%;
+    align-items: end;
+    position: absolute;
+    top: 1000px;
+    background-color: #008000;
+    color: #ffffff;
+    width: 100%;
+}
+
+.rodape {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+}
+
+.rodape h2 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.crede-19 {
+    display: flex;
+    width: 400px;
+    max-height: 100px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+}
+
+.rodape p {
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+footer hr{
+    background-color: #007500;
+    position: absolute;
+    top: 0px;
+    border: none;
 }
