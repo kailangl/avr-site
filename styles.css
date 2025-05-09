@@ -12,7 +12,7 @@ html {
 }
 .admbox {
    color: white;
-  
+  justify-content: center;
     align-items: center;
     display: flex;
     width: 100%;
@@ -27,7 +27,7 @@ html {
 }
 .dsbox{
     color: white;
-  
+  justify-content: center;
     align-items: center;
     display: flex;
     width: 100%;
@@ -39,7 +39,7 @@ html {
 }
 .agrbox{
     color: white;
-  
+  justify-content: center;
     align-items: center;
     display: flex;
     width: 100%;
@@ -56,33 +56,22 @@ html {
     justify-content: center;
 
 }
-.admsec {
+.sec {
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: #f0f0f0;
-    box-shadow: 2px #388AFD;
-}
-.dssec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    padding: 5px;
     background-color: #f0f0f0;
 }
-.agrsec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.fdstitle {
+align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: #f0f0f0;
+    color: #000;
+    margin-bottom: 10px;
 }
 header {
     background-image: linear-gradient(#02ac02, #008000);
